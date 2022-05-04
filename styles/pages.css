@@ -1,0 +1,162 @@
+/* DEVELOPER: Shaan Malik, IS117-104, Spring 2022 */
+
+
+/* Phones/small devices */
+@media only screen and (max-width: 760px) {
+    
+    .content {
+        margin-left: .5em;
+        margin-right: .5em;
+    }
+    
+    .pagehead {
+        margin-top: 4em;
+        margin-left: 5%;
+    }
+
+    .reviewCard {
+        padding: 2em;
+        width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(78, 78, 78, 0.2);
+        transition: 0.3s;
+        border: 3px solid #18151d;
+        border-radius: 5px; /* 5px rounded corners */
+        margin: 0 auto;
+        margin-top: 1.5em;
+        background-color: #18151d;
+    }
+
+    .reviewPage_left, .reviewPage_right {
+        width: 100%;
+        float: both;        
+    }
+
+    .reviewCard > img {
+        width: 100%;
+    }
+
+    .embedContainer {
+        display: none;
+    }
+
+    .reviewCard-preview {
+        display: none;
+    }
+
+    
+}
+
+/* IPads/PCs/larger devices */
+@media only screen and (min-width: 760px) {
+
+
+    .content {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    
+    .pagehead {
+        margin-top: 4em;
+        margin-left: 5%;
+    }
+
+    .reviewCard {
+        padding: 2em;
+        margin-top: 2em;
+        width: 90%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        border: 3px solid #18151d;
+        border-radius: 5px;
+        background-color: #18151d;
+    }
+
+    .reviewCard:hover {
+        box-shadow: 0 8px 16px 0 #2b2536;
+        margin: 0;
+        padding: 0;
+    }
+
+    .reviewCard:hover > img {
+        
+        height: fit-content;
+        width: 100%;
+    }
+    
+    .left {
+        float: left;
+        margin-left: 1.5em;
+    }
+
+    .left img {
+        float: left;
+        margin: 0;
+        padding: 0;
+        object-fit: scale-down;
+        height: 5em;
+    }
+
+    .right {
+        float: right;
+        margin-right: 1.5em;
+    }
+
+    .right img {
+        float: right;
+        margin: 0;
+        padding: 0;
+        object-fit: scale-down;
+        height: 5em;
+    }
+
+    .left:hover {
+        float: left;
+        margin-left: 0.5em;
+        width: 100%;
+    }
+
+    .right:hover {
+        float: right;
+        margin-right: 0.5em;
+        width: 100%;
+    }
+
+    .reviewCard-full {
+        display: none;;
+    }
+
+    .reviewCard:hover > .reviewCard-preview {
+        display: none;
+    }
+    .reviewCard:hover > .reviewCard-full {
+        display: inline;
+        margin-left: 2em;
+    }
+
+    .reviewPage_left {
+        float: left;
+        width: 50%;
+    }
+
+    .reviewPage_right {
+        float: right; width: 50%;
+    }
+
+
+    .backupContainer {
+        display: none;
+    }
+
+}
+    iframe {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .projBreakdown {
+        margin-left: 2em;
+        margin-right: 2em;
+        margin-bottom: 5em;
+    }
+
+    
